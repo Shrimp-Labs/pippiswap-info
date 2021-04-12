@@ -101,7 +101,7 @@ function App() {
   const globalData = useGlobalData()
   const globalChartData = useGlobalChartData()
   const [latestBlock, headBlock] = useLatestBlocks()
-
+  console.log(globalChartData, 'globalChartData', globalData && globalChartData)
   // show warning
   const showWarning = headBlock && latestBlock ? headBlock - latestBlock > BLOCK_DIFFERENCE_THRESHOLD : false
 
@@ -116,9 +116,7 @@ function App() {
           </WarningWrapper>
         )}
         {globalData &&
-        Object.keys(globalData).length > 0 &&
-        globalChartData &&
-        Object.keys(globalChartData).length > 0 ? (
+        globalChartData ? (
           <BrowserRouter>
             <Route component={GoogleAnalyticsReporter} />
             <Switch>
