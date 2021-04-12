@@ -53,7 +53,6 @@ function GlobalPage() {
 
   // breakpoints
   const below800 = useMedia('(max-width: 800px)')
-
   // scrolling refs
   useEffect(() => {
     document.querySelector('body').scrollTo({
@@ -64,7 +63,7 @@ function GlobalPage() {
 
   return (
     <PageWrapper>
-      <ThemedBackground backgroundColor={transparentize(0.6, '#ff007a')} />
+      <ThemedBackground backgroundColor={transparentize(0.6, '#f04c61')} />
       <ContentWrapper>
         <div>
           <AutoColumn gap="24px" style={{ paddingBottom: below800 ? '0' : '24px' }}>
