@@ -71,10 +71,10 @@ export default function TokenLogo({ address, header = false, size = '24px', ...r
     )
   }
 
-  const path = `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/${isAddress(
-    address
-  )}/logo.png`
-
+  // const path = `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/${isAddress(
+  //   address
+  // )}/logo.png`
+  const path = `https://swap.pippi.finance/images/coins/${address?.toLowerCase()}.png  `
   return (
     <Inline>
       <Image
