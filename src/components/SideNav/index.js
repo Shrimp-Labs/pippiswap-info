@@ -174,12 +174,12 @@ function SideNav({ history }) {
               </Link>
             </HeaderText>
             <HeaderText>
-              <Link href="https://discord.com/invite/FCfyBSbCU5" target="_blank">
-                TG
+              <Link href="https://t.me/pippishrimp_swap" target="_blank">
+                Telegram
               </Link>
             </HeaderText>
             <HeaderText>
-              <Link href="https://t.me/pippishrimp_swap" target="_blank">
+              <Link href="https://twitter.com/pippishrimpswap" target="_blank">
                 Twitter
               </Link>
             </HeaderText>
