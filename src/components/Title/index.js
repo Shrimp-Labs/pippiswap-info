@@ -20,12 +20,12 @@ const TitleWrapper = styled.div`
   }
 `
 
-const UniIcon = styled(Link)`
-  transition: transform 0.3s ease;
-  :hover {
-    transform: rotate(-5deg);
-  }
-`
+// const UniIcon = styled(Link)`
+//   transition: transform 0.3s ease;
+//   :hover {
+//     transform: rotate(-5deg);
+//   }
+// `
 
 const Option = styled.div`
   font-weight: 500;
