@@ -36,7 +36,7 @@ export const stakingClient = new ApolloClient({
 
 export const blockClient = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://q.hg.network/subgraphs/name/kdex-heco-blocks',
+    uri: 'https://q.hg.network/subgraphs/name/hecoblocks/heco',
   }),
   cache: new InMemoryCache(),
 })
